@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<html>
+    <head>
+        <title>Claculater</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="calculater">
+                 <div>
+                <form>
+                 <div >
+                    <input type="text" id="inputtext" class="output">
+                 </div>
+                </form>
+            </div>
+          
+            <div>
+                <input type="button" value="AC" onClick="clr()">
+                <input type="button" value="D" onClick="del()">
+                <input type="button" value="%" onClick="calculate('%')">
+                <input type="button" value="/" onClick="calculate('/')">
+            </div>
+            <div>
+                <input type="button" value="7" onClick="calculate(7)">
+                <input type="button" value="8" onClick="calculate(8)">
+                <input type="button" value="9" onClick="calculate(9)">
+                <input type="button" value="*" onClick="calculate('*')">
+            </div>
+            <div>
+                <input type="button" value="4" onClick="calculate(4)">
+                <input type="button" value="5" onClick="calculate(5)">
+                <input type="button" value="6" onClick="calculate(6)">
+                <input type="button" value="-" onClick="calculate('-')">
+            </div>
+            <div>
+                <input type="button" value="1" onClick="calculate(1)">
+                <input type="button" value="2" onClick="calculate(2)">
+                <input type="button" value="3" onClick="calculate(3)">
+                <input type="button" value="+" onClick="calculate('+')">
+            </div>
+            <div>
+                <input type="button" value="0" onClick="calculate(0)">
+                <input type="button" value="." onClick="calculate('.')">
+                <input type="button" value="=" class="mini"  onclick='Result()'>
+            </div>
+        </div>
+
+
+        <script src="java.js"></script>
+
+        </div>
+    </body>
+</html>
